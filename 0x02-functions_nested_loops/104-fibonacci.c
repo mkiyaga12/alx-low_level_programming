@@ -7,7 +7,6 @@
  *
  * Return: (Successiful)
  */
-
 int main(void)
 {
 	unsigned long int i;
