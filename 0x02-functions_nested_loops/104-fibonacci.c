@@ -4,9 +4,9 @@
  * main - fibonacci <3
  *
  * Definition - no hardcoding 
- *
  * Return: (Successiful)
  */
+
 int main(void)
 {
 	unsigned long int i;
