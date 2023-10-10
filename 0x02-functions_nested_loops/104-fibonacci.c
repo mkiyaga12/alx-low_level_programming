@@ -5,7 +5,7 @@
  *
  * Definition - no hardcoding 
  *
- * Return:  (Successiful)
+ * Return: (Successiful)
  */
 
 int main(void)
@@ -41,7 +41,7 @@ int main(void)
 		bef1 = aft1 - bef1;
 		aft2 = aft2 + bef2;
 		bef2 = aft2 - bef2;
-}
+	}
 	printf("\n");
 	return (0);
 }
