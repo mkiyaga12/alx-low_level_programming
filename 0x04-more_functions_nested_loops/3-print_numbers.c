@@ -1,19 +1,25 @@
 #include "main.h"
 
 /**
- * main - print num except 2 and 4
- *
- * return: void
+ * largest_number - return the largest of 3 numbers
+ * @a: first int
+ * @b: second int
+ * @c: third int
+ * Return: largest number
  */
 
-void print_most_numbers(void)
+int largest_number(int a, int b, int c)
 {
-	char c;
+int largest = b;
 
-	for (c = '0'; c <= '9'; c++)
-	{
-		if (!(c == '2' || c == '4'))
-			putchar(c);
-	}
-	putchar('\n');
+if (a > b)
+{
+largest = a;
+}
+else if (c > b)
+{
+largest = c;
+}
+
+return (largest);
 }
