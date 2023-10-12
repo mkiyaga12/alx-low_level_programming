@@ -1,25 +1,17 @@
 #include "main.h"
 
 /**
- * largest_number - return the largest of 3 numbers
- * @a: first int
- * @b: second int
- * @c: third int
- * Return: largest number
+ * print_numbers - print 0 to 9
+ * return: void
  */
 
-int largest_number(int a, int b, int c)
+void print_numbers(void)
 {
-int largest = b;
+	char c;
 
-if (a > b)
-{
-largest = a;
-}
-else if (c > b)
-{
-largest = c;
-}
-
-return (largest);
+	for (c = '0'; c <= '9'; c++)
+	{
+		putchar(c);
+	}
+	putchar('\n');
 }
