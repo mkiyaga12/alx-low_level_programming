@@ -1,7 +1,23 @@
 #include <stdio.h>
+#include <stdlib.h>
 
-int main() {
-	printf("_putchar\n");
-	return 0;
+/**
+ * main - print out _putcharac using printf
+ * 
+ * Return: 0
+ */
 
+int main(void)
+{
+putchar('_');
+putchar('p');
+putchar('u');
+putchar('t');
+putchar('c');
+putchar('h');
+putchar('a');
+putchar('r');
+putchar('\n');
+
+rieturn (0);
 }
